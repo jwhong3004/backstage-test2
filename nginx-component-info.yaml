@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nginx
+  annotations:
+    github.com/project-slug: jwhong3004/backstage-application
+    backstage.io/techdocs-ref: url:https://github.com/jwhong3004/https-github.com-jwhong3004/tree/master
+    github.com/workflows: application.yml
+    backstage.io/kubernetes-id: 'nginx'
+#    backstage.io/kubernetes-label-selector: 'app=nginx'
+  title: '"nginx" / EC2 Application'
+  description: 'An example of a Application Creation.'
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
